@@ -36,7 +36,7 @@ main() {
   # NOTE: Pulling in the selected theme by the theme that's being set as local
   # variables.
   # shellcheck source=catppuccin-frappe.tmuxtheme
-  source /dev/stdin <<<"$(sed -e "/^[^#].*=/s/^/local /" "${PLUGIN_DIR}/catppuccin-${theme}.tmuxtheme")"
+  source /dev/stdin <<<"$(sed -e "/^[^#].*=/s/^/local /" "${PLUGIN_DIR}/everblush.tmuxtheme")"
 
   # status
   set status "on"
